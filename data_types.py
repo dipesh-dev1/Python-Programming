@@ -39,3 +39,18 @@ print('List:', my_list)
 #None: A special value that represents the absence of a value.
 my_none_var = None
 print('None:', my_none_var)
+
+#To get the data type of a variable, we can use the type() function:
+my_var1 = 'Dipesh'
+my_var2 = 20
+
+print(type(my_var1))
+print(type(my_var2))
+
+
+#The built-in isinstance() function lets you check if a variable matches a specific data type.
+#It takes in an object and the type you want to check it against, then returns a boolean. Here are some examples:
+print(isinstance('Dipesh Chy', str))
+print(isinstance(True, bool))
+print(isinstance(20, int))
+print(isinstance('Hello World', float))
