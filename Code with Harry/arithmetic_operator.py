@@ -5,7 +5,7 @@ print(25/3) Division
 print(2*3) Multiplication
 print(2%3) Modulus
 print(25//3) Floor Division
-print(2**4) Double Multiplication
+print(2**4) exponentiation operator
 '''
 # Simple Calculator
 a = 25
@@ -16,5 +16,5 @@ print("Multiplication is :", a*b)
 print("Division is :", a/b)
 print("Modulus is :", a%b)
 print("Floor Division is :", a//b)
-print("Double Multiplication is :", a**b)
+print("power is :", a**b)
 
