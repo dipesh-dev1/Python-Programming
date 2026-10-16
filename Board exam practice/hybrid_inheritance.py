@@ -1,0 +1,15 @@
+class A():
+    def show(self):
+        print("Hello")
+
+class B(A):
+    pass
+
+class C(A):
+    pass
+
+class D(B, C):
+    pass
+
+d = D()
+d.show()
