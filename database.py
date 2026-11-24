@@ -1,3 +1,4 @@
+
 import sqlite3
 # Connect to database
 connection = sqlite3.connect("college.db")
